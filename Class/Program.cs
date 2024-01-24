@@ -18,10 +18,10 @@ namespace Donguler
             Console.WriteLine(kurs4);
             Console.WriteLine("--------------------------------");
 
-            Console.WriteLine("For döngüsü ile yazdırıldı");
             //array - dizi
             string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kampı", "Programlamaya başlangıç için temel kurs", "Java" };
 
+            Console.WriteLine("For döngüsü ile yazdırıldı");
             for (int i = 0; i < kurslar.Length; i++)
             {
                 Console.WriteLine(kurslar[i]);
