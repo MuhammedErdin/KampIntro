@@ -6,6 +6,7 @@ namespace ClassIntro
     {
         static void Main(string[] args)
         {
+           
             string adi = "Engin";
             int yas = 36;
 

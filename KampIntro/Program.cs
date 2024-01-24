@@ -35,6 +35,7 @@ namespace BootCamp
             }
 
             Console.WriteLine(kategoriEtiketi);
+
             Console.ReadKey();
         }
     }
