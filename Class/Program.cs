@@ -11,11 +11,14 @@ namespace Donguler
             string kurs3 = "Java";
             string kurs4 = "Python";
 
+            Console.WriteLine("Tek tek yazdırıldı");
             Console.WriteLine(kurs1);
             Console.WriteLine(kurs2);
             Console.WriteLine(kurs3);
             Console.WriteLine(kurs4);
+            Console.WriteLine("--------------------------------");
 
+            Console.WriteLine("For döngüsü ile yazdırıldı");
             //array - dizi
             string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kampı", "Programlamaya başlangıç için temel kurs", "Java" };
 
@@ -23,7 +26,9 @@ namespace Donguler
             {
                 Console.WriteLine(kurslar[i]);
             }
-            Console.WriteLine("for bitti");
+            Console.WriteLine("--------------------------------");
+
+            Console.WriteLine("Foreach ile yazdırıldı");
 
             foreach (string Kurs in kurslar)
             {
