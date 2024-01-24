@@ -29,7 +29,6 @@ namespace Donguler
             Console.WriteLine("--------------------------------");
 
             Console.WriteLine("Foreach ile yazdırıldı");
-
             foreach (string Kurs in kurslar)
             {
                 Console.WriteLine(Kurs);
