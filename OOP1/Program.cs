@@ -10,8 +10,8 @@ namespace OOP1
     {
         static void Main(string[] args)
         {
-            Product product1 = new Product();   //int,double,bool... değer tip
-            product1.Id = 1;                    //diziler,class,abstract class,interface... referans tip  
+            Product product1 = new Product();   //int,double,bool... değer tip(Stackte gerçekleşiyor)
+            product1.Id = 1;                    //diziler,class,abstract class,interface... referans tip(Stack ve Heap ile gerçekleşiyor)
             product1.CategoryId = 2;
             product1.ProductName = "Masa";
             product1.UnitPrice = 500;
