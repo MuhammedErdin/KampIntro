@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace GenericsIntro
 {
-    class MyList<T>
+    class MyList<Name>
     {
-        T[] items;  //=string[] items
+        Name[] names;  //=string[] names
         //constructor
         public MyList()
         {
-            items = new T[0];   //itemsı 0 elemanlı olarak oluşturdum
+            names = new Name[0];   //names 0 elemanlı olarak oluşturdum
         }
-        public void Add(T item)
+        public void Add(Name name)
         {
-            T[] tempArray = items;  //items içerisindekiler gitmesin diye tempArraye(Geçici Diziye) emaneten verdim
-            items = new T[items.Length+1];  //itemsın eleman sayısını 1 arttırdım
+            Name[] tempArray = names;  //names içerisindekiler gitmesin diye tempArraye(Geçici Diziye) emaneten verdim
+            names = new Name[names.Length+1];  //names eleman sayısını 1 arttırdım
             for (int i = 0; i < tempArray.Length; i++)  //tempArraye verdiğim elemanları geri adım adım alıyorum
             {
-                items[i] = tempArray[i];            
+                names[i] = tempArray[i];            
             }
-                items[items.Length - 1] = item; //itemsın son elemanını son kısma ekledim
+                names[names.Length - 1] = name; //namesın son elemanını son kısma ekledim
         }
         public int Lenght
         {
-            get { return items.Length; }
+            get { return names.Length; }
         }
-        public T[] Items
+        public Name[] Names
         {
-            get { return items; }
+            get { return names; }
         }
 
     }

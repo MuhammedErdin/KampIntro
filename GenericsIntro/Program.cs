@@ -15,11 +15,11 @@ namespace GenericsIntro
 
             Console.WriteLine(isimler.Lenght);
 
-            isimler.Add("Kerem");
+            isimler.Add("Demirog");
 
             Console.WriteLine(isimler.Lenght);
 
-            foreach (var isim in isimler.Items)
+            foreach (var isim in isimler.Names)
             {
                 Console.WriteLine(isim);
             }
