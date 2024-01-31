@@ -30,7 +30,6 @@ namespace OOP1
             int toplamaSonucu = productManager.Topla(3, 6);
             Console.WriteLine(toplamaSonucu*2);*/
 
-            Console.ReadKey();
         }
     }
 }

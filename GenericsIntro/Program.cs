@@ -23,7 +23,6 @@ namespace GenericsIntro
             {
                 Console.WriteLine(isim);
             }
-            Console.ReadKey();
         }
     }
 }

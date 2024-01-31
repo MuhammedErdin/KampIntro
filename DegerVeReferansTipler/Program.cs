@@ -29,7 +29,6 @@ namespace Donguler
             {
                 Console.WriteLine(Kurs);
             }
-            Console.ReadKey();
         }
     }
 }
