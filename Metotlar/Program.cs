@@ -6,11 +6,11 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
-            /* string urunAdi = "Elma";
-            double fiyati = 15;
-            string aciklama = "Amasya Elması";
+            //string urunAdi = "Elma";
+            //double fiyati = 15;
+            //string aciklama = "Amasya Elması";
 
-            string[] meyveler = new string[] { }; */
+            //string[] meyveler = new string[] { };
 
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
@@ -29,18 +29,16 @@ namespace Metotlar
                 Console.WriteLine(urun.Adi);
                 Console.WriteLine(urun.Fiyati);
                 Console.WriteLine(urun.Aciklama);
-                Console.WriteLine("-----------------");
-
+                Console.WriteLine("----------------");
             }
             Console.WriteLine("------Metotlar------");
 
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
-            sepetManager.Ekle2("Armut", "Yeşil Armut", 12, 10);
-            sepetManager.Ekle2("Elma", "Yeşil Elma", 12, 9);
-            sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 12, 8);
-
+            //sepetManager.Ekle2("Armut", "Yeşil Armut", 12, 10);     //Bu şekilde yaptığımızda yeni bir özellik eklenmesi gerektiğinde tüm ürünlere
+            //sepetManager.Ekle2("Elma", "Yeşil Elma", 12, 9);          //tek tek gidilip eklenen özelliğin değerlerinin girilmesini gerektirir
+            //sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 12, 8);
         }
     }
 }
